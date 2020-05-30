@@ -4,9 +4,5 @@
 !wp-content
 !README.md
 
-# Ignore le contenu de "wp-content" sauf "plugins" & "themes"
-wp-content/*
-!wp-content/plugins/
-!wp-content/themes/
 
 
