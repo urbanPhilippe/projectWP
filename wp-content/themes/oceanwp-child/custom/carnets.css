@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1025px) {
+    /*Remove background-image*/
+    body.elementor-page-2084:not(.elementor-motion-effects-element-type-background), body.elementor-page-6 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-image: none!important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    /*Sections width*/
+    .elementor-2084 .elementor-section {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .elementor-2084 .elementor-section {
+        padding: 0;
+    }
+}
+
+
+

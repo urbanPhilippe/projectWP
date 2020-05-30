@@ -1,0 +1,257 @@
+/* S T Y L E S H E E T   S U M M A R Y
+
+Section 1 HERO -> lINE 10
+Section 2 PARTONS ENSEMBLE -> lINE 70
+Section 3 SLOGAN (STYLE MADE WITH ELEMENTOR ONLY)
+section 4 DECOUVREZ NOS CARNETS DE VOYAGES -> lINE 248
+Section 5 CONTACT -> ./custom/contact.css
+*/
+
+/* S E C T I O N 1  :  H E R O */
+
+/*Left polaroid*/
+.elementor-4 .elementor-element.elementor-element-b35f159 .elementor-image img {
+    width: 115%!important;
+    min-width:115%!important;
+    max-width: 115%;
+}
+/*Right polaroid*/
+.elementor-4 .elementor-element.elementor-element-0e89e91 .elementor-image img {
+    min-width: 125%!important;
+    width:120%;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1024px) {
+    .logo img {
+        width: 55% !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /*Left polaroid*/
+    .elementor-4 .elementor-element.elementor-element-b35f159 .elementor-image img {
+        width: 140% !important;
+        min-width: 140% !important;
+        max-width: 140% !important;
+    }
+    /*Right Polaroid*/
+    .elementor-4 .elementor-element.elementor-element-0e89e91 .elementor-image img {
+        min-width: 145% !important;
+        width: 145% !important;
+    }
+    /*craft at right side*/
+    .craft img {
+        min-width: 65%;
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo img {
+        width:85%;
+    }
+    /*Left polaroid*/
+    .elementor-4 .elementor-element.elementor-element-b35f159 .elementor-image img {
+        width: 75%!important;
+        min-width:75%!important;
+        max-width: 75%!important;
+
+    }
+    /*Right polaroid*/
+    .elementor-4 .elementor-element.elementor-element-0e89e91 .elementor-image img {
+        min-width: 79%!important;
+        width:79% !important;
+    }
+    .craft img {
+        min-width: 35%;
+        width:35%;
+    }
+}
+
+
+/* S E C T I O N  2  :  P A R T O N S   E N S E M B L E  */
+
+/*Left column picture size*/
+.partonsLeft img {
+    min-width: 130%;
+}
+
+/*Right column picture size*/
+.partonsRight img {
+    min-width: 120%;
+}
+
+/*Button Buen Camino*/
+.elementor-4 .elementor-element.elementor-element-78c64fc .elementor-button {
+    min-width: 172px;
+    transform: rotate(10deg);
+}
+
+/*Button Pikey Peak */
+.elementor-4 .elementor-element.elementor-element-f8b7435 .elementor-button {
+    min-width:172px;
+    transform: rotate(-16deg);
+}
+/*Button 88 nuances de temples*/
+.elementor-4 .elementor-element.elementor-element-35c2e7e .elementor-button{
+    transform: rotate(8deg);
+}
+/*Button Tombouctou*/
+.elementor-4 .elementor-element.elementor-element-b913ab4 .elementor-button {
+    transform: rotate(-17deg);
+}
+/*Button France */
+.elementor-4 .elementor-element.elementor-element-4ea6362 .elementor-button {
+    transform: rotate(9deg);
+    min-width:185px;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 1024px) and (min-width:769px){
+    .partonsLeft img {
+        min-width: 140%;
+    }
+    .partonsRight img {
+        min-width: 140%;
+    }
+
+    /*Button Buen Camino*/
+    .elementor-4 .elementor-element.elementor-element-78c64fc .elementor-button {
+        min-width: 167px;
+        height: 35px!important;;
+        position: absolute;
+        left: -10px;
+        top: 69px;
+    }
+    /*Button Pikey Peak */
+    .elementor-4 .elementor-element.elementor-element-f8b7435 .elementor-button {
+        min-width: 172px;
+        max-width: 125px;
+        transform: rotate(-16deg);
+        height: 35px !important;
+        position: absolute;
+        left: 8px;
+        top: 144px;
+    }
+    /*Button 88 nuances de temples*/
+    .elementor-4 .elementor-element.elementor-element-35c2e7e .elementor-button{
+        max-width: 180px !important;
+        min-width: 0px;
+        height: 35px !important;
+        position: absolute;
+        top: 32px;
+        left: -7px;
+        padding: 5px 20px
+    }
+    /*Button Tombouctou*/
+    .elementor-4 .elementor-element.elementor-element-b913ab4 .elementor-button {
+        transform: rotate(-17deg);
+        min-width: 187px;
+        max-width: 140px;
+        height: 35px !important;
+        position: absolute;
+        left: -21px;
+        top: 72px;
+    }
+    /*Button France */
+    .elementor-4 .elementor-element.elementor-element-4ea6362 .elementor-button {
+        transform: rotate(10deg);
+        min-width: 192px;
+        max-width: 145px;
+        height: 35px !important;
+        position: absolute;
+        left: 8px;
+        top: 6px;
+    }
+    /*Button Tous les voyages*/
+    .elementor-4 .elementor-element.elementor-element-25ba2ff .elementor-button {
+        height: 50px !important;
+        margin-left: 50px;
+        position: absolute;
+        top: -75px;
+        left: 70px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width:620px) {
+    .partonsLeft img {
+        min-width: 140%;
+    }
+    .partonsRight img {
+        min-width: 140%;
+    }
+    /*Button Buen Camino*/
+    .elementor-4 .elementor-element.elementor-element-78c64fc .elementor-button {
+        min-width: 95px;
+        height:35px!important;
+    }
+    /*Button Pikey Peak */
+    .elementor-4 .elementor-element.elementor-element-f8b7435 .elementor-button {
+        min-width:95px;
+        max-width:125px;
+        transform: rotate(-16deg);
+    }
+    /*Button 88 nuances de temples*/
+    .elementor-4 .elementor-element.elementor-element-35c2e7e .elementor-button{
+        max-width: 132px!important;
+        min-width: 0px;
+        padding: 5px 20px!important;
+    }
+    /*Button Tombouctou*/
+    .elementor-4 .elementor-element.elementor-element-b913ab4 .elementor-button {
+        transform: rotate(-17deg);
+        min-width:115px;
+        max-width:140px;
+    }
+    /*Button France */
+    .elementor-4 .elementor-element.elementor-element-4ea6362 .elementor-button {
+        transform: rotate(10deg);
+        min-width:140px;
+        max-width:145px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .partonsLeft img {
+        min-width: 100%;
+    }
+    .partonsRight img {
+        min-width: 100%;
+    }
+    /*Button Buen Camino*/
+    .elementor-4 .elementor-element.elementor-element-78c64fc .elementor-button {
+        min-width: 170px;
+    }
+    /*Button Pikey Peak */
+    .elementor-4 .elementor-element.elementor-element-f8b7435 .elementor-button {
+        min-width:170px;
+        transform: rotate(-16deg);
+    }
+    /*Button 88 nuances de temples*/
+    .elementor-4 .elementor-element.elementor-element-35c2e7e .elementor-button{
+        max-width: 283px;
+        min-width: 0px;
+    }
+    /*Button Tombouctou*/
+    .elementor-4 .elementor-element.elementor-element-b913ab4 .elementor-button {
+        transform: rotate(-17deg);
+        min-width:195px;
+    }
+    /*Button France */
+    .elementor-4 .elementor-element.elementor-element-4ea6362 .elementor-button {
+        transform: rotate(10deg);
+        min-width:200px;
+    }
+}
+
+/*S E C T I O N   3  :  S L O G A N
+Use Elementor only */
+
+
+/* S E C T I O N  4  :  D E C O U V R E Z   N O S   C A R N E T S   D E   V O Y A G E S  */
+
+/*Thumbnail picture size*/
+.post-grid .item .layer-media img {
+    min-height: 186px;
+}
+
+/* S E C T I O N   5   :   C O N T A C T
+Use ./custom/contact.css */
+

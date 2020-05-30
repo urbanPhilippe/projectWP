@@ -1,0 +1,61 @@
+/*
+ Theme Name:   oceanwp-child
+ Theme URI:    https://monsite.com
+ Description:  OceanWP WordPress theme example child theme.
+ Author:       Phil
+ Author URI:   https://voyageinitiartique.com
+ Template:     oceanwp
+ Version:      1.0.0
+*/
+
+
+/*@import url("./custom/navbar.css");
+@import url("./custom/home.css");
+@import url("./custom/voyages.css");
+@import url("./custom/concept.css");
+@import url("./custom/carnets.css");
+@import url("./custom/contact.css");
+@import url("./custom/articles.css");*/
+
+/* G E N E R A L   L A Y O U T */
+
+
+
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+/* F O N T S */
+@font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: url('fonts/BarlowCondensed-Regular.ttf')  format('truetype');
+}
+
+/* B U T T O N S */
+.elementor-widget-button .elementor-button {
+    height: 40px!important;
+    background-color: #0b0b0b!important;
+    box-shadow: 3px 3px 3px gray!important;
+}
+
+.elementor-button:hover,.elementor-button:focus {
+    background-color: #7A7A7A!important;
+}
+.elementor-widget-button .elementor-button .elementor-button-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* Remove transition for objects with the class 'parallax' */
+/*.parallax {
+    transition: none !important;
+}*/
+
+
+
+
+
+

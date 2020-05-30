@@ -1,0 +1,16 @@
+/* A R T I C L E S   B L O G   L A Y O U T  */
+
+.single .thumbnail img {
+    display: none;
+}
+.single .entry-title {
+    display:none;
+}
+.page-header {
+    background-position: center;
+}
+@media only screen and (max-width: 600px) {
+    .page-header {
+        margin-top: 75px;
+    }
+}

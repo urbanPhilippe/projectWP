@@ -1,0 +1,100 @@
+#top-bar {
+    padding: 0;
+}
+
+/*SECTION WIDTH*/
+.elementor-6 .elementor-section {
+    width: 80%;
+    margin: auto;
+}
+/*Buttons*/
+.elementor-6 .elementor-widget-button .elementor-button {
+    min-width: 300px!important;
+}
+
+/*Text editor*/
+span.black {
+    color: #0b0b0b;
+}
+/*Images section autres prestations*/
+.elementor-6 .elementor-element-d9a54fb .elementor-image {
+    min-width: 160%!important;
+}
+.elementor-6 .elementor-element-f9a82e3 .elementor-image {
+    min-width: 170%!important;
+}
+.elementor-6 .elementor-element-82b2d2a .elementor-image {
+    min-width: 160% !important;
+}
+.elementor-6 .elementor-element-1ce95a1 .elementor-image {
+    min-width: 160%!important;
+}
+/*RESPONSIVE*/
+
+@media only screen and (max-width: 1025px) {
+    /*No background image*/
+    body.elementor-page-6:not(.elementor-motion-effects-element-type-background), body.elementor-page-6 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-image: none!important;
+    }
+    .elementor-6 .elementor-widget-button .elementor-button {
+        height: 50px!important;
+    }
+    .elementor-6 .elementor-element.elementor-element-bbc805d .elementor-button {
+        min-width:220px!important;
+        min-height: 65px!important;
+    }
+    .elementor-6 .elementor-element.elementor-element-e697507 {
+        margin-top:30px!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .elementor-6 .elementor-section {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .elementor-6 .elementor-element.elementor-element-bbc805d .elementor-button {
+        height: 70px!important;
+    }
+ }
+
+@media only screen and (max-width: 600px){
+
+    /* Button presentation*/
+    .elementor-6 .elementor-button {
+        min-height: 60px;
+        min-width: 305px!important;
+    }
+    /* Middle buttons*/
+    .elementor-6 .elementor-element.elementor-element-bbc805d .elementor-button {
+         min-width: 306px !important;
+        min-height : 60px!important;
+        max-height:60px;
+    }
+    .elementor-6 .elementor-element.elementor-element-bbc805d .elementor-button-text {
+        padding-top: 7px;
+    }
+
+    /*Images autres prestations*/
+    .elementor-6 .elementor-element.elementor-element-aaf7567 {
+        margin: auto;
+        max-width: 75%;
+    }
+    .elementor-6 .elementor-element.elementor-element-a414d79 {
+        max-width: 75%;
+        margin: auto;
+    }
+    .elementor-6 .elementor-element.elementor-element-3dbe7e4 {
+        max-width: 75%;
+        margin:auto;
+    }
+    .elementor-6 .elementor-element.elementor-element-3736049 {
+        max-width: 75%;
+        margin:auto;
+    }
+
+
+}
+
