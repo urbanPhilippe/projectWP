@@ -8,10 +8,9 @@
 <!DOCTYPE html>
 <html class="<?php echo esc_attr( oceanwp_html_classes() ); ?>" <?php language_attributes(); ?><?php oceanwp_schema_markup( 'html' ); ?>>
 <head>
-    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <meta name="viewport" content="width=device-width">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Indie+Flower&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -31,7 +30,7 @@
 			<?php do_action( 'ocean_header' ); ?>
 
 			<?php do_action( 'ocean_before_main' ); ?>
-			
+
 			<main id="main" class="site-main clr"<?php oceanwp_schema_markup( 'main' ); ?>>
 
 				<?php do_action( 'ocean_page_header' ); ?>
