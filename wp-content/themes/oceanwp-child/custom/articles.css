@@ -1,4 +1,7 @@
 /* A R T I C L E S   B L O G   L A Y O U T  */
+ul.meta, ul.meta li a, ul.meta li i, .single nav.post-navigation .nav-links .title  {
+    color: #0b0b0b;
+}
 
 .single .thumbnail img {
     display: none;

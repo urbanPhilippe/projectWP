@@ -10,7 +10,8 @@ form input[type="text"], form input[type="password"], form input[type="email"], 
     display: block;
     width: 42%!important;
     margin: auto;
-    background: white;
+    background: #ffffff;
+    color: #000000;
 }
 form textarea {
     max-height: 80px;

@@ -33,6 +33,10 @@ body{
     src: url('fonts/BarlowCondensed-Regular.ttf')  format('truetype');
 }
 
+.elementor-text-editor {
+    color: #0b0b0b;
+}
+
 /* B U T T O N S */
 .elementor-widget-button .elementor-button {
     height: 40px!important;
